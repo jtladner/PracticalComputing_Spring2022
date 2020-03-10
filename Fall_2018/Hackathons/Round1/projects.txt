@@ -1,0 +1,3 @@
+Paul Phillips	Phillips_RNAseq
+Kimberly Celona	Celona_Magpix
+Marcela Suarez	Suarez_SNPs
