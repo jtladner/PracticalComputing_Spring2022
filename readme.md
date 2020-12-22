@@ -35,17 +35,17 @@ Assigned reading **must** be completed prior to each class. This will allow us t
 
 Week | Date | Topic | Required reading (#s = PCfB Chapters) | Optional Reading
 -----|------|-------|---------------------------------|---------
-[1](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class1_Intro_RegExp) | 1/15 | Intro, setup & regular expressions | 1-3 |
-[2](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class2_Shell-pt1) | 1/22 | The Shell - Part 1 | 4-5 |
-[3](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class3_Shell-pt2) | 1/29 | The Shell - Part 2 | 6, 21 |
-[4](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class4_Python-pt1) | 2/5 | Python Programming - Part 1 | 7-8, [Jupyter Notebook Tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) |
-[5](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class5_Python-pt2) | 2/12 | Python Programming - Part 2 | 9 |
-[6](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class6_Python-pt3) | 2/19 | Python Programming - Part 3 | 10-11 |
-[7](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class6_Python-pt3) | 2/26 | Python Programming - Part 4 | 12 |
-[8](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class7_Debugging) | 3/5 | Debugging, Combining methods | 13-14 |
-[9](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class8_Graphics) | 3/12 | Graphical concepts: vectors vs. pixels | 17-19 |
-[10](https://github.com/jtladner/Courses/tree/master/PracticalComputing/Fall_2018/Class9_Matplotlib) | 3/19 | Making figures in python - Part 1 | [Matplotlib Overview](https://towardsdatascience.com/data-science-with-python-intro-to-data-visualization-and-matplotlib-5f799b7c6d82) | 
-[11]() | 3/26 | Making figures in python - Part 2 | 
+[1](https://github.com/jtladner/PracticalComputing_Spring2021/tree/master/Week01_Intro_RegExp) | 1/15 | Intro, setup & regular expressions | 1-3 |
+[2](https://github.com/jtladner/PracticalComputing_Spring2021/tree/master/Class02_Shell-pt1) | 1/22 | The Shell - Part 1 | 4-5 |
+[3](https://github.com/jtladner/PracticalComputing_Spring2021/tree/master/Class03_Shell-pt2) | 1/29 | The Shell - Part 2 | 6, 21 |
+[4](https://github.com/jtladner/PracticalComputing_Spring2021/tree/master/Class04_Python-pt1) | 2/5 | Python Programming - Part 1 | 7-8, [Jupyter Notebook Tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) |
+[5](https://github.com/jtladner/PracticalComputing_Spring2021/tree/master/Class05_Python-pt2) | 2/12 | Python Programming - Part 2 | 9 |
+[6](https://github.com/jtladner/PracticalComputing_Spring2021/tree/master/Class06_Python-pt3) | 2/19 | Python Programming - Part 3 | 10-11 |
+[7](https://github.com/jtladner/PracticalComputing_Spring2021/tree/master/Class07_Python-pt4) | 2/26 | Python Programming - Part 4 | 12 |
+[8](https://github.com/jtladner/PracticalComputing_Spring2021/tree/master/Class08_Debugging) | 3/5 | Debugging, Combining methods | 13-14 |
+[9](https://github.com/jtladner/PracticalComputing_Spring2021/tree/master/Class09_Graphics) | 3/12 | Graphical concepts: vectors vs. pixels | 17-19 |
+[10](https://github.com/jtladner/PracticalComputing_Spring2021/tree/master/Class10_Matplotlib-pt1) | 3/19 | Making figures in python - Part 1 | [Matplotlib Overview](https://towardsdatascience.com/data-science-with-python-intro-to-data-visualization-and-matplotlib-5f799b7c6d82) | 
+[11](https://github.com/jtladner/PracticalComputing_Spring2021/tree/master/Class10_Matplotlib-pt2) | 3/26 | Making figures in python - Part 2 | 
 12 | 4/2 | Work/Troubleshoot Day #1 | 
 13 | 4/9 | Work/Troubleshoot Day #2 | 
 14 | 4/16 | Work/Troubleshoot Day #3 | 
