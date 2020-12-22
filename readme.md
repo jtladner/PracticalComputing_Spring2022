@@ -1,4 +1,4 @@
-# Practical Computing for Biologists (BIO 599-022), Spring 2021
+# Practical Computing for Biologists (BIO 599-007), Spring 2021
 - This is the primary repository for course materials, and will be updated regularly. 
 
 ### Class time/location
