@@ -6,21 +6,21 @@
     - Ensuring you have access to a command-line interface
 
 ## 1. Complete the pre-course survey
-- A quick survey to help me gauge your level of experience and interest in the topics that will be covered.
+- A quick survey to help me gauge your level of experience in the topics that will be covered.
 - You can access the survey [here](http://nau.co1.qualtrics.com/jfe/form/SV_72i1pWuWtZwVRKB)
 
 ## 2. GitHub
 - GitHub is a web-based hosting service used primarily for open-source software development, but which can also be used to host additional content
-- All of the materials for this class, including exercise instructions and files will be hosted on GitHub.
+- Much of the material for this class, including assignment instructions and files will be hosted on GitHub.
 - The easiest way to access files for the class will be to clone a copy of the course repository onto your laptop. To do this, please follow these steps:
     1. If you don't already have one, sign up for a **free** GitHub account [here](https://github.com/)
 
 - If you are a Mac or Windows user:
     1. Download and install the [GitHub Desktop client](https://desktop.github.com/). This will include signing into your GitHub account. 
     2. Sign into your GitHub account within your internet browser
-    3. Open the [Courses repository](https://github.com/jtladner/Courses) within your browser.
-    4. Click on the green "Clone or download" box on the right side of the screen and then choose "Open in Desktop". At this point, you will need to choose a location on your personal computer to locally store your copy of the repository. The default name of the repository directory will be 'Courses'.
-    5. To update the contents of this directory to match the online version (e.g., to download new files that have been added), simply select "Courses" as your "Current Repository" within the Desktop Client (upper left) and then select "Pull origin" (upper right). If there are no updates available you will not see a "Pull origin" option. Instead you will see "Fetch origin", which will look for differences between your local copy and the online repository.
+    3. Open the [Courses repository](https://github.com/jtladner/PracticalComputing_Spring2021) within your browser.
+    4. Click on the green "Code" box in the upper right of the screen and then choose "Open with GitHub Desktop". At this point, you will need to choose a location on your personal computer to locally store your copy of the repository. I keep all of my GitHub repositories in a directory called "GitHub" within "Documents".
+    5. To update the contents of this directory to match the online version (e.g., to download new files that have been added), simply select "PracticalComputing_Spring2021" as your "Current Repository" within the Desktop Client (upper left) and then select "Pull origin" (upper right). If there are no updates available you will not see a "Pull origin" option. Instead you will see "Fetch origin", which will look for differences between your local copy and the online repository. If you have made changes to the existing repository files or added extra files to your repository copy, you will need to [discard](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#3-discarding-changes) or [stash](https://github.blog/2019-06-05-github-desktop-expands-to-support-stashing-and-rebasing/#stashing) those changes prior to pulling the new version.
 
 - If you are a Linux user, you will need to clone the repository from the command line:
     1. Open a terminal window and check that you have git installed by running the command:
@@ -37,7 +37,7 @@
     
     3.  Clone the repository from github
     ```
-    git clone https://github.com/jtladner/Courses.git
+    git clone https://github.com/jtladner/PracticalComputing_Spring2021.git
     ```
     
     This clones the repository and all of the files contained within, as well as the git history of the repository.
@@ -66,7 +66,7 @@
         2. Install Linux (e.g., [Ubuntu](https://www.ubuntu.com/) or [CentOS](https://www.centos.org/)) within a virtual machine (e.g., [VirtualBox](https://www.virtualbox.org/))
      
 
-Copyright (C) 2017  Jason Ladner
+Copyright (C) 2021  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
