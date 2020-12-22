@@ -7,7 +7,7 @@
 
 ## 1. Complete the pre-course survey
 - A quick survey to help me gauge your level of experience and interest in the topics that will be covered.
-- You can access the survey [here](http://nau.co1.qualtrics.com/jfe/form/SV_1OeGOgNC5d4KMex)
+- You can access the survey [here](http://nau.co1.qualtrics.com/jfe/form/SV_72i1pWuWtZwVRKB)
 
 ## 2. GitHub
 - GitHub is a web-based hosting service used primarily for open-source software development, but which can also be used to host additional content
