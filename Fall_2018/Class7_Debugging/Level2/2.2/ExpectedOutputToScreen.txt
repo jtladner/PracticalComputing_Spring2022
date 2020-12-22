@@ -1,3 +1,0 @@
-Length of first list: 250
-Length of second list: 250
-# in both lists: 200
