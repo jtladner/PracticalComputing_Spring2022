@@ -22,7 +22,7 @@ If the reponse is not "/bin/bash", let me know.
 
 2. We will now start using the text editor on your computer to use regular expressions to edit text files. 
     1. Open "EBOV.phy" in your text editor.
-    2. Use a series of find/replace queries to covert this [phylip formatted](http://scikit-bio.org/docs/0.2.3/generated/skbio.io.phylip.html#:~:text=PHYLIP%20format%20is%20a%20plain,the%20multiple%20sequence%20alignment%20itself.) sequence alignment into a [fasta formatted](https://en.wikipedia.org/wiki/FASTA_format) file. *Record find/replace queries in Assignment Answer Sheet.*
+    2. Use a series of find/replace queries to covert this [phylip formatted](http://scikit-bio.org/docs/0.2.3/generated/skbio.io.phylip.html#:~:text=PHYLIP%20format%20is%20a%20plain,the%20multiple%20sequence%20alignment%20itself.) sequence alignment into a [fasta formatted](https://en.wikipedia.org/wiki/FASTA_format) file. **Record find/replace queries in Assignment Answer Sheet.**
     
     Fasta format example:
      ```
