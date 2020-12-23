@@ -18,11 +18,13 @@ If the reponse is not "/bin/bash", let me know.
 
 1. Go to [RegexOne](https://regexone.com/) and complete the 15 lesson tutorial. This website provides a nice interactive interface for playing with regular expressions.
     - Although the interface will allow you to only match a portion of each line, when possible, I encourage you to write expressions that match the entirety of each line. 
-    - Keep track of your solutions in the table provided in the Assignment answer sheet.
+    - Keep track of your solutions in the table provided in the Assignment Answer Sheet.
 
 2. We will now start using the text editor on your computer to use regular expressions to edit text files. 
     1. Open "EBOV.phy" in your text editor.
-    2. Use a series of find/replace queries to covert this [phylip formatted](http://scikit-bio.org/docs/0.2.3/generated/skbio.io.phylip.html#:~:text=PHYLIP%20format%20is%20a%20plain,the%20multiple%20sequence%20alignment%20itself.) sequence alignment into a [fasta formatted](https://en.wikipedia.org/wiki/FASTA_format) file. Record find/replace queries in Assignment answer sheet.
+    2. Use a series of find/replace queries to covert this [phylip formatted](http://scikit-bio.org/docs/0.2.3/generated/skbio.io.phylip.html#:~:text=PHYLIP%20format%20is%20a%20plain,the%20multiple%20sequence%20alignment%20itself.) sequence alignment into a [fasta formatted](https://en.wikipedia.org/wiki/FASTA_format) file. 
+    3. Record find/replace queries in Assignment Answer Sheet.
+    4. Upload fasta-formatted file to Bb Learn along with Assignment Answer Sheet.
     
     Fasta format example:
      ```
@@ -39,7 +41,8 @@ If the reponse is not "/bin/bash", let me know.
     1. Design a single search and replace query that utilizes regular expressions to reformat **every** line to the following format:
     ```Genus\tspecies\tG. species\tCommon Name\tStatus```
     "Status" is the column with a categorical variable including "Casual", "Rare Visitor", etc. Make sure to remove the "*" character from the beginning of the Status category, if present. Record the find/replace query in the Assignment answer sheet.
-
+    2. Upload re-formatted file to Bb Learn along with Assignment Answer Sheet.
+    
 ## Extra fun
 
 Explore for "extra credit" or in the event that you finish all of the other exercises.
