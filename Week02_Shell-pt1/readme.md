@@ -12,7 +12,8 @@ Practical Computing for Biologists, Chapters 4-5
 ```pwd```
 
    - For **Mac** users, the reponse should be similar to the following with 'uname' replaced with your username:
-
+     - Test
+     
 ```/Users/uname```
 
    -   For **Linux/Windows** users, The reponse should be similar to the following with 'uname' replaced with your username:
