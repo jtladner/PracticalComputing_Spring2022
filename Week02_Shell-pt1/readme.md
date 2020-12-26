@@ -11,18 +11,18 @@ Practical Computing for Biologists, Chapters 4-5
 
 ```pwd```
 
-    - For **Mac** users, the reponse should be similar to the following with 'uname' replaced with your username:
+   - For **Mac** users, the reponse should be similar to the following with 'uname' replaced with your username:
 
 ```/Users/uname```
 
-    -   For **Linux/Windows** users, The reponse should be similar to the following with 'uname' replaced with your username:
+   -   For **Linux/Windows** users, The reponse should be similar to the following with 'uname' replaced with your username:
 
 ```/home/uname```
 
-    -   If you're not in the right place, or you're not sure, execute the following command ("~" is a shortcut for your home directory):
+   -   If you're not in the right place, or you're not sure, execute the following command ("~" is a shortcut for your home directory):
 ```cd ~/```
 
-    -   The following will also work because if you don't specify a location, the default for cd is to move to your home directory:
+   -   The following will also work because if you don't specify a location, the default for cd is to move to your home directory:
 ```cd```
 
 2. **Linux/Windows users only.** Open your .bash_profile in a terminal-based text editor. This command will create the file if it doesn't exist:  
