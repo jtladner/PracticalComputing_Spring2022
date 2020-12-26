@@ -95,7 +95,8 @@ cat test.txt >test.txt
 7. To test the incremental search capabilities, type the letter 's' and hit the up arrow. This should bring up the 'source' command you entered in step 4, as opposed to the last 'cat' command. 
 
 
-8. To test the history time stamps, execute the following command, which will print the last 10 commands to the screen.:
+8. To test the history time stamps, execute the following command, which will print the last 10 commands to the screen:
+
 ```history | tail -n 10```
 
    - In addition to seeing the command number prior to the actual command, you should also see the date and time the command was run. 
