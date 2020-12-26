@@ -1,80 +1,32 @@
-# Class 2 - Sept. 7th 2018
+# Week 2 - Jan. 22nd 2021
 - In this class we will:
     - Learn to use the shell/terminal to interact with your computer
 
 ### Required Reading (**Must be completed ahead of time**)
 Practical Computing for Biologists, Chapters 4-5
 
-### Some basic shell configuration
+### Basic shell configuration instructions
 
-#### For Mac users:
 1. Open your command line interface and confirm that you are in your home directory by typing the command:
 ```pwd```
 
-  The reponse should be similar to the following with 'uname' replaced with your username:
+  For **Mac** users, the reponse should be similar to the following with 'uname' replaced with your username:
 ```/Users/uname```
 
-  If you're not in the right place, or you're not sure, execute the following command:
-```cd ~/```
-
-2. If you've installed the bbedit command line tools use the following command to open your .bash_profile in bbedit:
-
-```bbedit .bash_profile```
-
-Alternatively use this command to open your .bash_profile in a terminal-based text editor  
-
-```nano .bash_profile```
-
-3. Add the following lines of code and save your changes:
-
-```
-set -o noclobber
-
-# For incremental search capabilities
-bind '"\e[A": history-search-backward'
-bind '"\e[B": history-search-forward'
-```
-
-4. Run the following command from the terminal window:
-
-```source .bash_profile```
-
-5. To test that noclobber is working as expetced, run the following two commands in succession:
-
-```
-touch test.txt
-cat test.txt >test.txt
-```
-
-You should receive the following message: 
-
-```-bash: test.txt: cannot overwrite existing file```
-
-6. To test the incremental search capabilities, type the letter 's' and hit the up arrow. This should bring up the 'source' command you entered in step 4, as opposed to the last 'cat' command. 
-
-7. In order to install the ```rename``` command, you must first install [homebrew](https://brew.sh/). Then run the following command:
-
-```brew install rename```
-
-8. Check to see if ```curl``` is installed using ```which curl```. If it isn't, install using homebrew:
-
-```brew install curl```
-
-#### For Linux users (including Windows users running a Linux terminal):
-1. Open your command line interface and confirm that you are in your home directory by typing the command:
-```pwd```
-
-The reponse should be similar to the following with 'uname' replaced with your username:
+  For **Linux/Windows** users, The reponse should be similar to the following with 'uname' replaced with your username:
 ```/home/uname```
 
-If you're not in the right place, or you're not sure, execute the following command:
+  If you're not in the right place, or you're not sure, execute the following command ("~" is a shortcut for your home directory):
 ```cd ~/```
 
-2. Open your .bash_profile in a terminal-based text editor. This command will create the file if it doesn't exist:  
+  The following will also work because if you don't specify a location, the default for cd is to move to your home directory:
+```cd```
+
+2. **Linux/Windows users only.** Open your .bash_profile in a terminal-based text editor. This command will create the file if it doesn't exist:  
 
 ```nano .bash_profile```
 
-3. Add the following lines of code and save your changes. These will ensure that commands within .bashrc will also be run when only your .bash_profile is executed:
+  Add the following lines of code and save your changes. These will ensure that commands within .bashrc will also be run when only your .bash_profile is executed:
 
 ```
 if [ -f ~/.bashrc ]; then
@@ -82,11 +34,21 @@ if [ -f ~/.bashrc ]; then
 fi
 ```
 
-4. Open your .bashrc in a terminal-based text editor. This command will create the file if it doesn't exist:  
+3. Open your .bash_profile (Mac) or .bashrc (Linux/Windows) file for editing
+
+For **Mac** users, if you've installed the bbedit command line tools use the following command to open your .bash_profile in bbedit (This command will create the file if it doesn't exist):
+
+```bbedit .bash_profile```
+
+Alternatively use this command to open your .bash_profile in a terminal-based text editor (This command will create the file if it doesn't exist):
+
+```nano .bash_profile```
+
+For **Linux/Windows**, open your .bashrc file instead (This command will create the file if it doesn't exist):
 
 ```nano .bashrc```
 
-5. Add the following lines of code and save your changes:
+4. Add the following lines of code and save your changes:
 
 ```
 set -o noclobber
@@ -94,13 +56,21 @@ set -o noclobber
 # For incremental search capabilities
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
+
+# Add time stamp to bash history
+HISTTIMEFORMAT="%d/%m/%y %T "
 ```
 
-6. Run the following command from the terminal window:
+5. In order to execute the newly added commands for use in your current session, run the following command from the terminal window:
 
+**For Mac users**
+```source .bash_profile```
+
+**For Linux/Windows users**
 ```source .bashrc```
 
-7. To test that noclobber is working as expetced, run the following two commands in succession:
+
+6. To test that noclobber is working as expetced, run the following two commands in succession:
 
 ```
 touch test.txt
@@ -111,7 +81,21 @@ You should receive the following message:
 
 ```-bash: test.txt: cannot overwrite existing file```
 
-8. To test the incremental search capabilities, type the letter 's' and hit the up arrow. This should bring up the 'source' command you entered in step 4, as opposed to the last 'cat' command. 
+7. To test the incremental search capabilities, type the letter 's' and hit the up arrow. This should bring up the 'source' command you entered in step 4, as opposed to the last 'cat' command. 
+
+8. To test the history time stamps, execute the following command, which will print the last 10 commands to the screen.:
+```history | tail -n 10```
+
+  In addition to seeing the command number prior to the actual command, you should also see the date and time the command was run. 
+
+9. **Mac users only.** In order to install the ```rename``` command, you must first install [homebrew](https://brew.sh/). Then run the following command:
+
+```brew install rename```
+
+10. **Mac users only.** Check to see if ```curl``` is installed using ```which curl```. If it isn't, install using homebrew:
+
+```brew install curl```
+
 
 
 ### Exercises
