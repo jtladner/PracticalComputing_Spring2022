@@ -23,7 +23,7 @@ Practical Computing for Biologists, Chapters 4-5
 
 ```cd ~/```
 
-   -   The following will also work because if you don't specify a location, the default for cd is to move to your home directory:
+   - The following will also work because if you don't specify a location, the default for cd is to move to your home directory:
 
 ```cd```
 
@@ -32,7 +32,7 @@ Practical Computing for Biologists, Chapters 4-5
 
 ```nano .bash_profile```
 
-   -  Add the following lines of code and save your changes. These will ensure that commands within .bashrc will also be run when only your .bash_profile is executed:
+   - Add the following lines of code and save your changes. These will ensure that commands within .bashrc will also be run when only your .bash_profile is executed:
 
 ```
 if [ -f ~/.bashrc ]; then
