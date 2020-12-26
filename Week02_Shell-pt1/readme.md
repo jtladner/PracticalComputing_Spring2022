@@ -72,10 +72,10 @@ HISTTIMEFORMAT="%d/%m/%y %T "
 
 5. In order to execute the newly added commands for use in your current session, run the following command from the terminal window:
 
-   - **For Mac users**
+   - **For Mac users:**
 ```source .bash_profile```
 
-   - **For Linux/Windows users**
+   - **For Linux/Windows users:**
 ```source .bashrc```
 
 
@@ -86,16 +86,19 @@ touch test.txt
 cat test.txt >test.txt
 ```
 
-You should receive the following message: 
+
+   - You should receive the following message: 
 
 ```-bash: test.txt: cannot overwrite existing file```
 
+
 7. To test the incremental search capabilities, type the letter 's' and hit the up arrow. This should bring up the 'source' command you entered in step 4, as opposed to the last 'cat' command. 
+
 
 8. To test the history time stamps, execute the following command, which will print the last 10 commands to the screen.:
 ```history | tail -n 10```
 
-  In addition to seeing the command number prior to the actual command, you should also see the date and time the command was run. 
+   - In addition to seeing the command number prior to the actual command, you should also see the date and time the command was run. 
 
 9. **Mac users only.** In order to install the ```rename``` command, you must first install [homebrew](https://brew.sh/). Then run the following command:
 
