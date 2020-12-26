@@ -12,8 +12,7 @@ Practical Computing for Biologists, Chapters 4-5
 ```pwd```
 
    - For **Mac** users, the reponse should be similar to the following with 'uname' replaced with your username:
-     - Test
-     
+
 ```/Users/uname```
 
    -   For **Linux/Windows** users, The reponse should be similar to the following with 'uname' replaced with your username:
@@ -28,11 +27,12 @@ Practical Computing for Biologists, Chapters 4-5
 
 ```cd```
 
+
 2. **Linux/Windows users only.** Open your .bash_profile in a terminal-based text editor. This command will create the file if it doesn't exist:  
 
 ```nano .bash_profile```
 
-  Add the following lines of code and save your changes. These will ensure that commands within .bashrc will also be run when only your .bash_profile is executed:
+   -  Add the following lines of code and save your changes. These will ensure that commands within .bashrc will also be run when only your .bash_profile is executed:
 
 ```
 if [ -f ~/.bashrc ]; then
@@ -40,19 +40,21 @@ if [ -f ~/.bashrc ]; then
 fi
 ```
 
+
 3. Open your .bash_profile (Mac) or .bashrc (Linux/Windows) file for editing
 
-For **Mac** users, if you've installed the bbedit command line tools use the following command to open your .bash_profile in bbedit (This command will create the file if it doesn't exist):
+   - For **Mac** users, if you've installed the bbedit command line tools use the following command to open your .bash_profile in bbedit (This command will create the file if it doesn't exist):
 
 ```bbedit .bash_profile```
 
-Alternatively use this command to open your .bash_profile in a terminal-based text editor (This command will create the file if it doesn't exist):
+   - Alternatively use this command to open your .bash_profile in a terminal-based text editor (This command will create the file if it doesn't exist):
 
 ```nano .bash_profile```
 
-For **Linux/Windows**, open your .bashrc file instead (This command will create the file if it doesn't exist):
+   - For **Linux/Windows**, open your .bashrc file instead (This command will create the file if it doesn't exist):
 
 ```nano .bashrc```
+
 
 4. Add the following lines of code and save your changes:
 
@@ -67,12 +69,13 @@ bind '"\e[B": history-search-forward'
 HISTTIMEFORMAT="%d/%m/%y %T "
 ```
 
+
 5. In order to execute the newly added commands for use in your current session, run the following command from the terminal window:
 
-**For Mac users**
+   - **For Mac users**
 ```source .bash_profile```
 
-**For Linux/Windows users**
+   - **For Linux/Windows users**
 ```source .bashrc```
 
 
