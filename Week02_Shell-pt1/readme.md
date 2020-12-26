@@ -41,7 +41,7 @@ fi
 ```
 
 
-3. Open your .bash_profile (Mac) or .bashrc (Linux/Windows) file for editing
+3. Open your .bash_profile (Mac) or .bashrc (Linux/Windows) file for editing.
 
    - For **Mac** users, if you've installed the bbedit command line tools use the following command to open your .bash_profile in bbedit (This command will create the file if it doesn't exist):
 
