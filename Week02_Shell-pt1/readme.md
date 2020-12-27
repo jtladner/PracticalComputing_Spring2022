@@ -7,30 +7,22 @@ Practical Computing for Biologists, Chapters 4-5
 
 ### Basic shell configuration instructions
 
-1. Open your command line interface and confirm that you are in your home directory by typing the command:
+1. Open your command line interface and, just for fun, use it to see whether bash configuration files already exist on your computer. These files should be stored in your home directory, which can be accessed using ```~``` as a shortcut. So, type the following to view all the files present in your home directory:
 
-```pwd```
+```ls -la ~/```
 
-   - For **Mac** users, the reponse should be similar to the following with 'uname' replaced with your username:
+   - Do you see ```.bash_profile``` or ```.bashrc```? If so, take a look at what's inside using ```less```. For example:
+   
+   ```less  ~/.bash_profile```
+   
+   - **Note 1**: You can exit ```less``` by typing ```q```.
+   
+   - **Note 2**: It's fine if you don't already have copies of these files. The commands in step two will open existing files or create new files, if they don't already exist. 
+   
 
-```/Users/uname```
+2. **Linux/Windows users only.** Open your .bash_profile in a terminal-based text editor. This command will create the file if it doesn't exist. For example:  
 
-   -   For **Linux/Windows** users, The reponse should be similar to the following with 'uname' replaced with your username:
-
-```/home/uname```
-
-   -   If you're not in the right place, or you're not sure, execute the following command ("~" is a shortcut for your home directory):
-
-```cd ~/```
-
-   - The following will also work because if you don't specify a location, the default for cd is to move to your home directory:
-
-```cd```
-
-
-2. **Linux/Windows users only.** Open your .bash_profile in a terminal-based text editor. This command will create the file if it doesn't exist:  
-
-```nano .bash_profile```
+```nano ~/.bash_profile```
 
    - Add the following lines of code and save your changes. These will ensure that commands within .bashrc will also be run when only your .bash_profile is executed:
 
@@ -111,11 +103,11 @@ cat test.txt >test.txt
 
 
 
-### Exercises
+### Assignment
 
-For today's execises, you should work in the shell within the 'sandbox' directory, which is located within the GitHub directory for this week's class ('Class2_Shell-pt1'). To get there, use the 'cd' command. For example, on my computer, I would use the following:
+For today's assignment, you should work in the shell within the 'Assignment' directory, which is located within the GitHub directory for this week's class ('Class2_Shell-pt1'). To get there, use the 'cd' command. For example, on my computer, I would use the following:
 
-```cd /Users/jtladner/Documents/GitHub/Courses/PracticalComputing/Fall_2018/Class2_Shell-pt1/sandbox```
+```cd ~/Documents/GitHub/PracticalComputing_Spring2021/Week02_Shell-pt1/Assignment```
 
 Once there type ```ls -1``` and you should see the following list of files and directories:
 
@@ -170,6 +162,7 @@ Explore for "extra credit" or in the event that you finish all of the other exer
 
 [Cmd Challenge](https://cmdchallenge.com)
 
+[Additional configuration suggestions](https://natelandau.com/my-mac-osx-bash_profile/)
 
 
 Copyright (C) 2021  Jason Ladner
