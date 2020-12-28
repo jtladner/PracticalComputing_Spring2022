@@ -37,15 +37,15 @@ fi
 
    - For **Mac** users, if you've installed the bbedit command line tools use the following command to open your .bash_profile in bbedit (This command will create the file if it doesn't exist):
 
-```bbedit .bash_profile```
+```bbedit ~/.bash_profile```
 
    - Alternatively use this command to open your .bash_profile in a terminal-based text editor (This command will create the file if it doesn't exist):
 
-```nano .bash_profile```
+```nano ~/.bash_profile```
 
    - For **Linux/Windows**, open your .bashrc file instead (This command will create the file if it doesn't exist):
 
-```nano .bashrc```
+```nano ~/.bashrc```
 
 
 4. Add the following lines of code and save your changes:
@@ -65,10 +65,10 @@ HISTTIMEFORMAT="%d/%m/%y %T "
 5. In order to execute the newly added commands for use in your current session, run the following command from the terminal window:
 
    - **For Mac users:**
-```source .bash_profile```
+```source ~/.bash_profile```
 
    - **For Linux/Windows users:**
-```source .bashrc```
+```source ~/.bashrc```
 
 
 6. To test that noclobber is working as expetced, run the following two commands in succession:
@@ -92,6 +92,8 @@ cat test.txt >test.txt
 ```history | tail -n 10```
 
    - In addition to seeing the command number prior to the actual command, you should also see the date and time the command was run. 
+
+   - **Assignment** Copy and paste the last five commands from your history into the Assignment Answer Sheet.
 
 9. **Mac users only.** In order to install the ```rename``` command, you must first install [homebrew](https://brew.sh/). Then run the following command:
 
