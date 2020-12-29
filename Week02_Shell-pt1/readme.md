@@ -93,13 +93,13 @@ cat test.txt >test.txt
 
    - In addition to seeing the command number prior to the actual command, you should also see the date and time the command was run. 
 
-   - **Assignment** Copy and paste the last five commands from your history into the Assignment Answer Sheet.
+   - **For Assignment:** Copy and paste the last five commands from your history into the Assignment Answer Sheet.
 
 9. **Mac users only.** In order to install the ```rename``` command, you must first install [homebrew](https://brew.sh/). Then run the following command:
 
 ```brew install rename```
 
-10. **Mac users only.** Check to see if ```curl``` is installed using ```which curl```. If it isn't, install using homebrew:
+10. **Mac users only.** Check to see if ```curl``` is installed using ```which curl```. If it is, the location of the program will be printed to the screen. If it isn't, nothing will be printed to the screen. If you need to, you can install ```curl``` using homebrew:
 
 ```brew install curl```
 
@@ -107,27 +107,26 @@ cat test.txt >test.txt
 
 ### Assignment
 
-For today's assignment, you should work in the shell within the 'Assignment' directory, which is located within the GitHub directory for this week's class ('Class2_Shell-pt1'). To get there, use the 'cd' command. For example, on my computer, I would use the following:
+For today's assignment, you should work in the shell within the 'Assignment' directory, which is located within the GitHub directory for this week's class (```Week02_Shell-pt1```). To get there, use the 'cd' command. For example, on my computer, I would use the following:
 
 ```cd ~/Documents/GitHub/PracticalComputing_Spring2021/Week02_Shell-pt1/Assignment```
 
-Once there type ```ls -1``` and you should see the following list of files and directories:
+Once there type ```ls -1``` and you should see the following list of files and directories (```-1``` results in contents being presented, one per line, but without the extra info you get with ```-l```):
 
 ```
 bunchoffiles
 structure_hidden.pdb
 ```
 
-1. Use the ```man``` command to learn more about ```head``` and ```tail```. 
-The file 'structure\_hidden.pdb' has 9291 lines. You can check this using the command:
+1. Parsing ```structure_hidden.pdb```
 
-```wc -l structure\_hidden.pdb```
+    1. Use one of the commands we covered today to determine the number of lines contained in ```structure_hidden.pdb```. Generate two different versions of this command, one using a relative file path and the other using an absolute file path. Enter both commands AND the # of lines in the Assignment Answer Sheet.
 
-    1. Rewrite the command above, specifying an absolute path for 'structure_hidden.pdb' (hint: use ```pwd```)
+    2. Use a combination of ```head``` and ```tail```, within a single command in order to view **ONLY** lines 4532-4539 of ```structure_hidden.pdb```. Enter the command you used AND lines 4532-4539 in the Assignment Answer Sheet.
 
-    2. Now, use a combination of ```head``` and ```tail```, within a single command in order to view **ONLY** lines 4532-4539 of 'structure_hidden.pdb'.
+    3. Design a simple ```grep``` command that will generate the same output generated in the previous step (i.e., display lines 4532-4539 only). (hint: compare the content on lines 4532-4539 to the rest of the file). Enter your command in the Assignment Answer Sheet.
 
-    3. Design a simple ```grep``` command that will generate the same output generated in the previous step
+    3. ```.pdb``` is a file format used to describe the 3D structures of molecules held in the [Protein Data Bank](https://www.rcsb.org/). Each line that starts with ```ATOM``` describes the spatial coordinates of an atom that is part of the protein. How many atoms are part of the protein structure described in ```structure_hidden.pdb```? Enter the command you used and the number of atoms in the Assignment Answer Sheet.
 
 2. Use ```ls``` to look inside 'bunchoffiles'. This directory contains 100 files. All are plain text files, but they have three different file extensions. 
 
@@ -158,6 +157,7 @@ The file 'structure\_hidden.pdb' has 9291 lines. You can check this using the co
     6. Using ```head```, ```grep``` and some trial and error, generate a new fasta file containing the first 500 sequences. **Make sure you include the entire 500th sequence**
 
 4. Use the ```history``` command to generate a text file that includes all of the commands that you used for exercises 1-3.
+
 
 ## Extra fun
 
