@@ -126,11 +126,13 @@ structure_hidden.pdb
 
     3. Design a simple ```grep``` command that will generate the same output generated in the previous step (i.e., display lines 4532-4539 only). (hint: compare the content on lines 4532-4539 to the rest of the file). Enter your command in the Assignment Answer Sheet.
 
-    3. ```.pdb``` is a file format used to describe the 3D structures of molecules held in the [Protein Data Bank](https://www.rcsb.org/). Each line that starts with ```ATOM``` describes the spatial coordinates of an atom that is part of the protein. How many atoms are part of the protein structure described in ```structure_hidden.pdb```? Enter the command you used and the number of atoms in the Assignment Answer Sheet.
+    4. ```.pdb``` is a file format used to describe the 3D structures of molecules held in the [Protein Data Bank](https://www.rcsb.org/). Each line that starts with ```ATOM``` describes the spatial coordinates of an atom that is part of the protein. How many atoms are part of the protein structure described in ```structure_hidden.pdb```? Enter the command you used and the number of atoms in the Assignment Answer Sheet.
 
-2. Use ```ls``` to look inside 'bunchoffiles'. This directory contains 100 files. All are plain text files, but they have three different file extensions. 
+2. Exploring ```bunchoffiles```
 
-    1. Make a directory named 'halfthefiles' and then, with a single command, move all of the files with a .txt file extension to this new folder. 
+    1. Using the commands you've learned, explore the contents of the ```bunchoffiles``` directory. As you will see, this directory contains files with multiple different file extensions. Count the number of files with each file extension and enter this info AND the commands used in the Assignment Answer Sheet.
+
+    2. Make a directory named 'halfthefiles' and then, with a single command, move all of the files with a .txt file extension to this new folder. Enter the command you used in the Assignment Answer Sheet.
     
     2. Use ```cat``` to concatenate all of the .txt files (now in 'halfthefiles') into a single file called "all.txt". Generate this file within the main sandbox directory.
     
