@@ -93,7 +93,7 @@ cat test.txt >test.txt
 
    - In addition to seeing the command number prior to the actual command, you should also see the date and time the command was run. 
 
-   - **For Assignment:** Copy and paste the last five commands from your history into the Assignment Answer Sheet.
+   - **For Assignment: Copy and paste the last five commands from your history into the Assignment Answer Sheet.**
 
 9. **Mac users only.** In order to install the ```rename``` command, you must first install [homebrew](https://brew.sh/). Then run the following command:
 
@@ -120,47 +120,47 @@ structure_hidden.pdb
 
 1. Parsing ```structure_hidden.pdb```
 
-    1. Use one of the commands we covered today to determine the number of lines contained in ```structure_hidden.pdb```. Generate two different versions of this command, one using a relative file path and the other using an absolute file path. Enter both commands AND the # of lines in the Assignment Answer Sheet.
+    1. Use one of the commands we covered today to determine the number of lines contained in ```structure_hidden.pdb```. Generate two different versions of this command, one using a relative file path and the other using an absolute file path. **Enter both commands AND the # of lines in the Assignment Answer Sheet.**
 
-    2. Use a combination of ```head``` and ```tail```, within a single command in order to view **ONLY** lines 4532-4539 of ```structure_hidden.pdb```. Enter the command you used AND lines 4532-4539 in the Assignment Answer Sheet.
+    2. Use a combination of ```head``` and ```tail```, within a single command in order to view **ONLY** lines 4532-4539 of ```structure_hidden.pdb```. **Enter the command you used AND lines 4532-4539 in the Assignment Answer Sheet.**
 
-    3. Design a simple ```grep``` command that will generate the same output generated in the previous step (i.e., display lines 4532-4539 only). (hint: compare the content on lines 4532-4539 to the rest of the file). Enter your command in the Assignment Answer Sheet.
+    3. Design a simple ```grep``` command that will generate the same output generated in the previous step (i.e., display lines 4532-4539 only). (hint: compare the content on lines 4532-4539 to the rest of the file). **Enter your command in the Assignment Answer Sheet.**
     
-    4. Use the ```man``` command to learn about other options that can be used with ```grep```. Two particularly useful options specify a number of "context lines" to report. These context lines are lines that occur before or after any line that matches the query. Design a command that uses a combination of these options to generate the same output that was generated in the two previous steps (i.e., display lines 4532-4539 only). Enter your command in the Assignment Answer Sheet.
+    4. Use the ```man``` command to learn about other options that can be used with ```grep```. Two particularly useful options specify a number of "context lines" to report. These context lines are lines that occur before or after any line that matches the query. Design a command that uses a combination of these options to generate the same output that was generated in the two previous steps (i.e., display lines 4532-4539 only). **Enter your command in the Assignment Answer Sheet.**
 
-    5. ```.pdb``` is a file format used to describe the 3D structures of molecules held in the [Protein Data Bank](https://www.rcsb.org/). Each line that starts with ```ATOM``` describes the spatial coordinates of an atom that is part of the protein. How many atoms are part of the protein structure described in ```structure_hidden.pdb```? Enter the command you used and the number of atoms in the Assignment Answer Sheet.
+    5. ```.pdb``` is a file format used to describe the 3D structures of molecules held in the [Protein Data Bank](https://www.rcsb.org/). Each line that starts with ```ATOM``` describes the spatial coordinates of an atom that is part of the protein. How many atoms are part of the protein structure described in ```structure_hidden.pdb```? **Enter the command you used and the number of atoms in the Assignment Answer Sheet.**
 
 2. Exploring ```bunchoffiles```
 
-    1. Using the commands you've learned, explore the contents of the ```bunchoffiles``` directory. As you will see, this directory contains files with multiple different file extensions. Count the number of files with each file extension and enter this info AND the commands used in the Assignment Answer Sheet.
+    1. Using the commands you've learned, explore the contents of the ```bunchoffiles``` directory. As you will see, this directory contains files with multiple different file extensions. Count the number of files with each file extension and **enter this info AND the commands used in the Assignment Answer Sheet.**
 
-    2. Make a directory named 'halfthefiles' and then, with a single command, move all of the files with a .txt file extension to this new folder. Enter all of the commands used in the Assignment Answer Sheet.
+    2. Make a directory named 'halfthefiles' and then, with a single command, move all of the files with a .txt file extension to this new folder. **Enter all of the commands used in the Assignment Answer Sheet.**
     
-    3. Use ```cat``` to concatenate all of the .txt files (now in 'halfthefiles') into a single file called "all.txt". Generate this file within the main Assignment directory. Enter the command used in the Assignment Answer Sheet.
+    3. Use ```cat``` to concatenate all of the .txt files (now in 'halfthefiles') into a single file called "all.txt". Generate this file within the main Assignment directory. **Enter the command used in the Assignment Answer Sheet.**
     
-    4. Count the number of lines in 'all.txt' and the original .txt files to verify that the concatenation worked properly. Enter the number of lines in "all.txt" and the command used in the Assignment Answer Sheet.
+    4. Count the number of lines in 'all.txt' and the original .txt files to verify that the concatenation worked properly. **Enter the number of lines in "all.txt" and the command used in the Assignment Answer Sheet.**
     
-    5. Delete the 'halfthefiles' directory, including all of the indiviudal .txt files. Enter the commands used in the Assignment Answer Sheet.
+    5. Delete the 'halfthefiles' directory, including all of the indiviudal .txt files. **Enter the commands used in the Assignment Answer Sheet.**
     
-    6. Use ```ls``` to look at the remaining files in 'bunchoffiles'. When the files were generated, a typo resulted in many of the files being named with the string 'tres' instead of 'trees'. How many files were impacted by this mistake? Enter the number and the command used in the Assignment Answer Sheet.
+    6. Use ```ls``` to look at the remaining files in 'bunchoffiles'. When the files were generated, a typo resulted in many of the files being named with the string 'tres' instead of 'trees'. How many files were impacted by this mistake? **Enter the number and the command used in the Assignment Answer Sheet.**
     
-    7. Use ```rename``` to correct this mistake for all files with a single command. Enter the command used in the Assignment Answer Sheet.
+    7. Use ```rename``` to correct this mistake for all files with a single command. **Enter the command used in the Assignment Answer Sheet.**
 
 3. In this exercise, you will use ```curl``` to download a file from the internet and then explore and manipulate those files through the command line.
     
-    1. Create a directory called ```betalactam``` and move into this directory. Enter the commands used in the Assignment Answer Sheet.
+    1. Create a directory called ```betalactam``` and move into this directory. **Enter the commands used in the Assignment Answer Sheet.**
     
-    2. Use  ```curl``` to download a fasta file with betalactamase sequences from NCBI (ftp://ftp.ncbi.nlm.nih.gov/pathogen/betalactamases/Allele-dna.fa). Enter the command used in the Assignment Answer Sheet.
+    2. Use  ```curl``` to download a fasta file with betalactamase sequences from NCBI (ftp://ftp.ncbi.nlm.nih.gov/pathogen/betalactamases/Allele-dna.fa). **Enter the command used in the Assignment Answer Sheet.**
     
     3. Use ```less``` to take a look at the file contents and familiarize yourself with the fasta file format (**Note: a single sequence can span multiple lines**). 
     
-    4. Count the number of sequences in this file (**NOT the number of lines!**). Enter the number of sequences and command used in the Assignment Answer Sheet.
+    4. Count the number of sequences in this file (**NOT the number of lines!**). **Enter the number of sequences and command used in the Assignment Answer Sheet.**
     
-    5. How many of the sequence names start with 'AA'? Enter the number of sequences and command used in the Assignment Answer Sheet.
+    5. How many of the sequence names start with 'AA'? **Enter the number of sequences and command used in the Assignment Answer Sheet.**
     
-    6. How many sequence names end with '0'? Enter the number of sequences and command used in the Assignment Answer Sheet.
+    6. How many sequence names end with '0'? **Enter the number of sequences and command used in the Assignment Answer Sheet.**
     
-    7. Using ```head```, ```grep``` and some trial and error, generate a new fasta file containing the first 500 sequences. (**Make sure you include the entire 500th sequence**). How many **lines** are contained in this new files? Enter the number of lines and command used in the Assignment Answer Sheet.
+    7. Using ```head```, ```grep``` and some trial and error, generate a new fasta file containing the first 500 sequences. (**Make sure you include the entire 500th sequence**). How many **lines** are contained in this new files? **Enter the number of lines and command used in the Assignment Answer Sheet.**
 
 
 ## Extra fun
