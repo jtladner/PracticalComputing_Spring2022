@@ -148,19 +148,19 @@ structure_hidden.pdb
 
 3. In this exercise, you will use ```curl``` to download a file from the internet and then explore and manipulate those files through the command line.
     
-    1. Use  ```curl``` to download a fasta file with betalactamase sequences from NCBI (ftp://ftp.ncbi.nlm.nih.gov/pathogen/betalactamases/Allele-dna.fa).
+    1. Create a directory called ```betalactam``` and move into this directory. Enter the commands used in the Assignment Answer Sheet.
     
-    2. Use ```less``` to take a look at the file contents and familiarize yourself with the fasta file format. 
+    2. Use  ```curl``` to download a fasta file with betalactamase sequences from NCBI (ftp://ftp.ncbi.nlm.nih.gov/pathogen/betalactamases/Allele-dna.fa). Enter the command used in the Assignment Answer Sheet.
     
-    3. Use ```grep``` to count the number of sequences in this file (**NOT the number of lines!**)
+    3. Use ```less``` to take a look at the file contents and familiarize yourself with the fasta file format (**Note: a single sequence can span multiple lines**). 
     
-    4. How many of the sequence names start with 'AA'?
+    4. Count the number of sequences in this file (**NOT the number of lines!**). Enter the number of sequences and command used in the Assignment Answer Sheet.
     
-    5. How many sequence names end with '0'?
+    5. How many of the sequence names start with 'AA'? Enter the number of sequences and command used in the Assignment Answer Sheet.
     
-    6. Using ```head```, ```grep``` and some trial and error, generate a new fasta file containing the first 500 sequences. **Make sure you include the entire 500th sequence**
-
-4. Use the ```history``` command to generate a text file that includes all of the commands that you used for exercises 1-3.
+    6. How many sequence names end with '0'? Enter the number of sequences and command used in the Assignment Answer Sheet.
+    
+    7. Using ```head```, ```grep``` and some trial and error, generate a new fasta file containing the first 500 sequences. (**Make sure you include the entire 500th sequence**). How many **lines** are contained in this new files? Enter the number of lines and commands used in the Assignment Answer Sheet.
 
 
 ## Extra fun
