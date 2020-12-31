@@ -36,10 +36,10 @@ If the reponse is not "/bin/bash", let me know.
     4. Edit your regular expression(s) to remove all 'N' characters from the beginning and end of each sequence. **Record find/replace queries in the Assignment answer sheet.**
     5. **Upload final fasta-formatted file to Bb Learn along with Assignment Answer Sheet.**
 
-3. Open "HastingsBirdList\_2007\_.txt" in your text editor. This file contains tab-delimited information about bird species cited in the Hastings Park Conservancy in Vancouver, BC.
+3. Open "HastingsBirdList\_2007.txt" in your text editor. This file contains tab-delimited information about bird species cited in the Hastings Park Conservancy in Vancouver, BC.
     1. Design a single search and replace query that utilizes regular expressions to reformat **every** line to the following format:
     ```Genus\tspecies\tG. species\tCommon Name\tStatus```
-    "Status" is the column with a categorical variable including "Casual", "Rare Visitor", etc. Make sure to remove the "*" character from the beginning of the Status category, if present. **Record the find/replace query in the Assignment answer sheet.**
+    "Status" is the column with a categorical variable including "Casual", "Rare Visitor", etc. Make sure to remove the "*" character from the beginning of the Status category, if present. **Record the find/replace query in the Assignment answer sheet.** (**Tip: Copy and paste reformatted text into Excel to double check**)
     2. Upload re-formatted file to Bb Learn along with Assignment Answer Sheet.
     
 ## Extra fun
