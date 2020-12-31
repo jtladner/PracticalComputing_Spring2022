@@ -138,7 +138,7 @@ structure_hidden.pdb
     
     3. Use ```cat``` to concatenate all of the .txt files (now in 'halfthefiles') into a single file called "all.txt". Generate this file within the main Assignment directory. Enter the command used in the Assignment Answer Sheet.
     
-    4. Count the number of lines in 'all.txt' and the original .txt files to verify that the concatenation worked properly. Enter the number of lines in "all.txt" in the Assignment Answer Sheet.
+    4. Count the number of lines in 'all.txt' and the original .txt files to verify that the concatenation worked properly. Enter the number of lines in "all.txt" and the command used in the Assignment Answer Sheet.
     
     5. Delete the 'halfthefiles' directory, including all of the indiviudal .txt files. Enter the commands used in the Assignment Answer Sheet.
     
