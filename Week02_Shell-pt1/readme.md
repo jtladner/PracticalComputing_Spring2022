@@ -160,7 +160,7 @@ structure_hidden.pdb
     
     6. How many sequence names end with '0'? Enter the number of sequences and command used in the Assignment Answer Sheet.
     
-    7. Using ```head```, ```grep``` and some trial and error, generate a new fasta file containing the first 500 sequences. (**Make sure you include the entire 500th sequence**). How many **lines** are contained in this new files? Enter the number of lines and commands used in the Assignment Answer Sheet.
+    7. Using ```head```, ```grep``` and some trial and error, generate a new fasta file containing the first 500 sequences. (**Make sure you include the entire 500th sequence**). How many **lines** are contained in this new files? Enter the number of lines and command used in the Assignment Answer Sheet.
 
 
 ## Extra fun
