@@ -18,7 +18,7 @@
 - If you are a Mac or Windows user:
     1. Download and install the [GitHub Desktop client](https://desktop.github.com/). This will include signing into your GitHub account. 
     2. Sign into your GitHub account within your internet browser
-    3. Open the [Courses repository](https://github.com/jtladner/PracticalComputing_Spring2021) within your browser.
+    3. Open the [PracticalComputing_Spring2021 repository](https://github.com/jtladner/PracticalComputing_Spring2021) within your browser.
     4. Click on the green "Code" box in the upper right of the screen and then choose "Open with GitHub Desktop". At this point, you will need to choose a location on your personal computer to locally store your copy of the repository. I keep all of my GitHub repositories in a directory called "GitHub" within "Documents".
     5. To update the contents of this directory to match the online version (e.g., to download new files that have been added), simply select "PracticalComputing_Spring2021" as your "Current Repository" within the Desktop Client (upper left) and then select "Pull origin" (upper right). If there are no updates available you will not see a "Pull origin" option. Instead you will see "Fetch origin", which will look for differences between your local copy and the online repository. If you have made changes to the existing repository files or added extra files to your repository copy, you will need to [discard](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project#3-discarding-changes) or [stash](https://github.blog/2019-06-05-github-desktop-expands-to-support-stashing-and-rebasing/#stashing) those changes prior to pulling the new version.
 
@@ -45,7 +45,7 @@
     4. To get updates from the repository, change into the repository root directory and execute the git command 'pull':
     
     ```
-    cd Courses
+    cd PracticalComputing_Spring2021
     git pull
     ```
     
