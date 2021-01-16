@@ -5,6 +5,10 @@
 ### Required Reading (**Must be completed ahead of time**)
 Practical Computing for Biologists, Chapters 4-5
 
+### Prep for next class
+
+If you're using a Mac and you haven't installed the Xcode command line tools, follow the instructions [here](https://macpaw.com/how-to/install-command-line-tools#)
+
 ### Basic shell configuration instructions
 
 1. Open your command line interface and, just for fun, use it to see whether bash configuration files already exist on your computer. These files should be stored in your home directory, which can be accessed using ```~``` as a shortcut. So, type the following to view all the files present in your home directory:
