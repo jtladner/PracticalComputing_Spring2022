@@ -23,6 +23,7 @@ If you're using a Mac and you haven't installed the Xcode command line tools, fo
    
    - **Note 2**: It's fine if you don't already have copies of these files. The commands in step two will open existing files or create new files, if they don't already exist. 
    
+   - **Note 3**: If you are using zsh instead of bash on Mac OSX, just replace  ```.bash_profile``` with ```.zshrc``` in all of today's instructions. 
 
 2. **Linux/Windows users only.** Open your .bash_profile in a terminal-based text editor. This command will create the file if it doesn't exist. For example:  
 
