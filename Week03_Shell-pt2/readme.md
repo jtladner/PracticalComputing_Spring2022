@@ -78,6 +78,7 @@ This should automatically open the jupyter notebook within your default browser.
     4. Use a for loop (entered directly within the terminal window) to batch process all of these Zika virus genomes, using wrap_fasta.py to create new versions in which each viral genome sequence will be contained on a single line.
     
     **Hint 1**: the Zika virus genome is a little less than 11,000 nucleotides long. 
+    
     **Hint 2**: Make sure that you do not overwrite the original versions of the fasta sequences (i.e., the output.fasta name must be different from the input.fasta name). 
     
     Enter your successful for loop in the **Assignment Answer Sheet** and **upload 1 of the output fasta files** to Bb Learn along with the Assignment Answer Sheet. 
