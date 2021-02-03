@@ -35,7 +35,7 @@ This should automatically open the jupyter notebook within your default browser.
     
     4. If you have properly added the ```programs``` directory to your PATH, and the muscle binary is executable, you should be able to use muscle from anywhere on your computer just using the name of the binary (i.e., without specifying the location of the binary). Check that this works by simply typing the name of the binary you downloaded in your shell and hitting ```return```. If things are working as expected, you should see help info for muscle printed to your terminal window. 
     
-    5. Now, use the newly downloaded Muscle binary to align the Coronavirus Spike protein sequences contained in ```????``` using the following command:
+    5. Now, use the newly downloaded Muscle binary to align the Coronavirus Spike protein sequences contained in ```Week03_Shell-pt2/Assignment/``` using the following command:
     
     ```muscle3.8.31_i86darwin64 -in CoV_Spike_MSA_unaligned.fasta  -out  CoV_Spike_MSA_aligned_muscle.fasta```
     
