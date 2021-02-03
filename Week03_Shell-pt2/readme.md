@@ -50,7 +50,7 @@ This should automatically open the jupyter notebook within your default browser.
     
     2. Within the shell, move into the decompressed source code directory. 
     
-    3. Compile the RaxML program using ```make```. It may take a few tries to find a source code version that is compatible with your precessor and operating system. See [manual](https://github.com/stamatak/standard-RAxML/tree/master/manual ) for details. Here is an example of a command that worked on my laptop:
+    3. Compile the RaxML program using ```make```. It may take a few tries to find a source code version that is compatible with your processor and operating system. See [manual](https://github.com/stamatak/standard-RAxML/tree/master/manual ) for details. Here is an example of a command that worked on my laptop:
     
     ```make -f Makefile.AVX.gcc```
     
@@ -61,7 +61,7 @@ This should automatically open the jupyter notebook within your default browser.
     *Hint*: remember the ```head``` command covered last week.  
 
 
-4. Move into ```Week03\_Shell-pt2/Assignment/zika\_genomes```. This directory contains 89 fasta files. 88 of these each containing a single Zika virus genome, and each sequence containing line within these fasta files has a maximum length of 70 nucleotides. The other is a test file containing a dummy sequence wrapped 5 nucleotides per line.
+4. Move into ```Week03_Shell-pt2/Assignment/zika\_genomes```. This directory contains 89 fasta files. 88 of these each containing a single Zika virus genome, and each sequence containing line within these fasta files has a maximum length of 70 nucleotides. The other is a test file containing a dummy sequence wrapped 5 nucleotides per line.
 
     This directory also contains a simple python script - "wrap_fasta.py" - that changes the length of the sequence lines in a fasta file. Here is an example command that will take an input fasta and generate a new version with sequence containing lines up to 20,000 nucleotides long:
 
@@ -83,15 +83,15 @@ This should automatically open the jupyter notebook within your default browser.
     
     Enter your successful for loop in the **Assignment Answer Sheet** and **upload 1 of the output fasta files** to Bb Learn along with the Assignment Answer Sheet. 
 
-5. Move into the ```Week03\_Shell-pt2/Assignment``` directory. Within this directory, you will find a file called ```dummy.txt```. Write and execute a simple shell script called ```dummy.sh``` that will:
-    1. Create a new directory within ```Week03\_Shell-pt2/Assignment``` called "dummy_dir"
+5. Move into the ```Week03_Shell-pt2/Assignment``` directory. Within this directory, you will find a file called ```dummy.txt```. Write and execute a simple shell script called ```dummy.sh``` that will:
+    1. Create a new directory within ```Week03_Shell-pt2/Assignment``` called "dummy_dir"
     2. Move "dummy.txt" into this new directory
     3. Rename "dummy.txt" to "done.txt"
     
     **Upload your shell script** to Bb Learn along with the Assignment Answer Sheet. 
 
 
-6. Move into ```Week03\_Shell-pt2/images```. This directory contains several pdf files. Using ```ls``` in combination with regular expressions within your text editor, as described in PCfB p.91-96, generate a shell script called called ```renamer.sh``` that will create renamed copies of all of these pdf files within a new sub-directory called "images\_renamed". For the image files that start with "test\_", the new names should omit "test\_3.6.7\_" from the beginning of the file names and ".txt" from within the file names. For the remaining files, omit the portion of the name that comes prior to the '-' character (and the '-' character itself).
+6. Move into ```Week03_Shell-pt2/images```. This directory contains several pdf files. Using ```ls``` in combination with regular expressions within your text editor, as described in PCfB p.91-96, generate a shell script called called ```renamer.sh``` that will create renamed copies of all of these pdf files within a new sub-directory called "images\_renamed". For the image files that start with "test\_", the new names should omit "test\_3.6.7\_" from the beginning of the file names and ".txt" from within the file names. For the remaining files, omit the portion of the name that comes prior to the '-' character (and the '-' character itself).
 
     **Upload your shell script** to Bb Learn along with the Assignment Answer Sheet. 
 
