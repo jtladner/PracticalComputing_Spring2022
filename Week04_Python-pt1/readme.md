@@ -1,8 +1,8 @@
 # Class 4 - Feb. 5th 2021
 - In this class we will learn:
     - about three different ways to run Python code
-    - to use strings, integers and floating point numbers in Python
-    - how to write and execute a custom Python script
+    - about six of the most common data types in Python
+    - to use a Jupyter Notebook to write and execute Python code
 
 ### Required Reading (**Must be completed ahead of time**)
 Practical Computing for Biologists, Chapters 7-8
