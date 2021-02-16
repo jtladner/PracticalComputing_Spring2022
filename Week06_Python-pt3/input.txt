@@ -1,0 +1,56 @@
+Where would you like output files to be written [nasp_results]? nasp_27517
+
+Where is the reference fasta file you would like to use? pacbio_assemblies/bt40_27517_4_I1_rq_017873.fasta
+
+Do you want to check the reference for duplicated regions
+and skip SNPs that fall in those regions [Y]? 
+
+What system do you use for job management (PBS/TORQUE, SLURM, SGE/OGE, and 'none' are currently supported) [SLURM]? 
+  Would you like to specify a queue/partition to use for all jobs (leave blank to use default queue) []? 
+  What additional arguments do you need to pass to the job management system []? 
+
+Do you have fasta files for external genomes you wish to include [Y]? n
+
+Do you have read files you wish to include [Y]? 
+Where are these files located [/scratch/jtl276/Bt40]? fastqs/bbadaptrim/qualfilt/
+
+Would you like to use Trimmomatic to trim your reads first [N]? 
+
+This pipeline currently supports four aligners: BWA, Bowtie2, Novoalign, and SNAP.
+You can also provide pre-aligned BAM files, and you can choose as many options as you want.
+
+Would you like to run BWA mem [Y]? n
+
+Would you like to run Bowtie2 [Y]? 
+Would you like to set advanced Bowtie2 settings [N]? 
+
+Would you like to run Novoalign [N]? 
+
+Would you like to run SNAP [N]? 
+
+Do you have pre-aligned SAM/BAM files you wish to include [N]? 
+
+This pipeline currently supports four SNP callers: GATK, SolSNP, VarScan, and SAMtools, and you can provide VCF files.
+You can choose as many options as you want.
+
+Would you like to run GATK [Y]? 
+
+Unable to find 'GenomeAnalysisTK.jar', please enter the full path to 'GenomeAnalysisTK.jar': /common/contrib/bin/GenomeAnalysisTK.jar
+Would you like to set advanced GATK settings [N]? 
+
+Would you like to run VarScan [N]? 
+
+Would you like to run SAMtools(BCFtools) [N]? 
+
+Do you have pre-called VCFfiles you wish to include [N]? 
+
+This pipeline can do filtering based on coverage.
+If you do not want filtering based on coverage, enter 0.
+What is your minimum coverage threshold [10]? 
+
+This pipeline can do filtering based on the proportion of reads that match the call made by the SNP caller.
+If you do not want filtering based on proportion, enter 0.
+What is the minimum acceptable proportion [0.9]? 
+Would you like to set advanced MatrixGenerator settings [N]? 
+
+Do you want to create a master_masked matrix that includes all positions with low-quality positions that failed the coverage or proportion filter masked with an 'N' [N]? 
