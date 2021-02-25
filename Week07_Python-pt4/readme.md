@@ -22,6 +22,7 @@ Practical Computing for Biologists, Chapter 12
 ## Extra fun
 
 [Argparse Tutorial](https://docs.python.org/3/howto/argparse.html)
+
 [Argparse Manual](https://docs.python.org/3/library/argparse.html)
 
 Copyright (C) 2021  Jason Ladner
