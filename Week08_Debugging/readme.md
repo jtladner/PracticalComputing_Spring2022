@@ -54,6 +54,10 @@ There are two versions of this script. Attempt to run the example command with b
 
 [other tools](https://wiki.python.org/moin/PythonDebuggingTools)
 
+[Errors & Exceptions Tutorial](https://docs.python.org/3/tutorial/errors.html)
+
+[Built-in Exceptions](https://docs.python.org/3/library/exceptions.html)
+
 Copyright (C) 2021  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
