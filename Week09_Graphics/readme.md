@@ -1,4 +1,4 @@
-# Class 8 - March 12th 2021
+# Class 9 - March 12th 2021
 - In this class we will:
     - Discuss concepts related to graphics
     - Learn tips and tools for making better figures
