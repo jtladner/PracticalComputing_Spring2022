@@ -32,7 +32,7 @@ Assigned reading **must** be completed prior to each class. This will allow us t
 
 Week | Date | Topic | Required reading (#s = PCfB Chapters) | Optional Reading
 -----|------|-------|---------------------------------|---------
-[1](https://github.com/jtladner/PracticalComputing_Spring2022/tree/master/Week01_Intro_RegExp) | 1/154 | Intro, setup & regular expressions | 1-3 |
+[1](https://github.com/jtladner/PracticalComputing_Spring2022/tree/master/Week01_Intro_RegExp) | 1/14 | Intro, setup & regular expressions | 1-3 |
 [2](https://github.com/jtladner/PracticalComputing_Spring2022/tree/master/Week02_Shell-pt1) | 1/21 | The Shell - Part 1 | 4-5 |
 [3](https://github.com/jtladner/PracticalComputing_Spring2022/tree/master/Week03_Shell-pt2) | 1/28 | The Shell - Part 2 | 6, 21 |
 [4](https://github.com/jtladner/PracticalComputing_Spring2022/tree/master/Week04_Python-pt1) | 2/4 | Python Programming - Part 1 | 7-8, [Jupyter Notebook Tutorial](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook) |
