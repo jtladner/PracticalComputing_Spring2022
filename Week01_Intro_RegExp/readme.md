@@ -1,4 +1,4 @@
-# Class 1 - Jan. 15th 2021
+# Class 1 - Jan. 14th 2022
 - In this first class we will:
     - Discuss the syllabus and course organization/expectations
     - Troubleshoot computer setup problems
