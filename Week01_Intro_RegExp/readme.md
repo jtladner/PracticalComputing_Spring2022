@@ -12,7 +12,7 @@ Practical Computing for Biologists, Chapters 1-3
 1. Open your command line interface and type this command followed by 'Enter':
 ```echo $SHELL```
 
-If the reponse is not "/bin/bash", let me know. 
+If the reponse is not "/bin/bash" or "/bin/zsh", let me know. 
 
 ### Assignment
 
