@@ -183,7 +183,7 @@ structure_hidden.pdb
     
     7. Use ```rename``` to correct this mistake for all files with a single command. **Enter the command used in the Assignment Answer Sheet.**
 
-3. In this exercise, you will use ```curl``` to download a file from the internet and then explore and manipulate those files through the command line.
+3. In this exercise, you will use ```curl``` to download a file from the internet and then explore and manipulate that file through the command line.
     
     1. Create a directory called ```betalactam``` and move into this directory. **Enter the commands used in the Assignment Answer Sheet.**
     
