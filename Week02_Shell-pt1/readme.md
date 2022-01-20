@@ -1,4 +1,4 @@
-# Week 2 - Jan. 22nd 2021
+# Week 2 - Jan. 21st 2022
 - In this class we will:
     - Learn to use the shell/terminal to interact with your computer
 
@@ -15,7 +15,7 @@ If you're using a Mac and you haven't installed the Xcode command line tools, fo
 
 ```ls -la ~/```
 
-   - Do you see ```.bash_profile``` or ```.bashrc```? If so, take a look at what's inside using ```less```. For example:
+   - Do you see ```.bash_profile``` or ```.bashrc``` or ```.zshrc```? If so, take a look at what's inside using ```less```. For example:
    
    ```less  ~/.bash_profile```
    
@@ -23,7 +23,6 @@ If you're using a Mac and you haven't installed the Xcode command line tools, fo
    
    - **Note 2**: It's fine if you don't already have copies of these files. The commands in step two will open existing files or create new files, if they don't already exist. 
    
-   - **Note 3**: If you are using zsh instead of bash on Mac OSX, just replace  ```.bash_profile``` with ```.zshrc``` in all of today's instructions. 
 
 2. **Linux/Windows users only.** Open your .bash_profile in a terminal-based text editor. This command will create the file if it doesn't exist. For example:  
 
@@ -38,15 +37,25 @@ fi
 ```
 
 
-3. Open your .bash_profile (Mac) or .bashrc (Linux/Windows) file for editing.
+3. Open your .bash_profile or .zshrc (Mac) or .bashrc (Linux/Windows) file for editing.
 
-   - For **Mac** users, if you've installed the bbedit command line tools use the following command to open your .bash_profile in bbedit (This command will create the file if it doesn't exist):
+   - For **Mac** users, if you've installed the bbedit command line tools use the following command to open your configuration file in bbedit (This command will create the file if it doesn't exist):
 
 ```bbedit ~/.bash_profile```
 
-   - Alternatively use this command to open your .bash_profile in a terminal-based text editor (This command will create the file if it doesn't exist):
+or
+
+```bbedit ~/.zshrc```
+
+
+   - Alternatively use this command to open your configuration file in a terminal-based text editor (This command will create the file if it doesn't exist):
 
 ```nano ~/.bash_profile```
+
+or
+
+```nano ~/.zshrc```
+
 
    - For **Linux/Windows**, open your .bashrc file instead (This command will create the file if it doesn't exist):
 
@@ -54,6 +63,8 @@ fi
 
 
 4. Add the following lines of code and save your changes:
+
+   - For **Bash** users:
 
 ```
 set -o noclobber
@@ -66,11 +77,28 @@ bind '"\e[B": history-search-forward'
 HISTTIMEFORMAT="%d/%m/%y %T "
 ```
 
+   - For **Zsh** users:
+
+```
+set -o noclobber
+
+# For incremental search capabilities
+bindkey '\eOA' history-beginning-search-backward
+bindkey '\e[A' history-beginning-search-backward
+bindkey '\eOB' history-beginning-search-forward
+bindkey '\e[B' history-beginning-search-forward
+```
+
 
 5. In order to execute the newly added commands for use in your current session, run the following command from the terminal window:
 
    - **For Mac users:**
 ```source ~/.bash_profile```
+
+or
+
+```source ~/.zshrc```
+
 
    - **For Linux/Windows users:**
 ```source ~/.bashrc```
@@ -92,13 +120,15 @@ cat test.txt >test.txt
 7. To test the incremental search capabilities, type the letter 's' and hit the up arrow. This should bring up the 'source' command you entered in step 4, as opposed to the last 'cat' command. 
 
 
-8. To test the history time stamps, execute the following command, which will print the last 10 commands to the screen:
+8. For **Bash** users, test the history time stamps by running the following command, which will print the last 10 commands to the screen:
 
 ```history | tail -n 10```
 
    - In addition to seeing the command number prior to the actual command, you should also see the date and time the command was run. 
 
    - **For Assignment: Copy and paste the last five commands from your history into the Assignment Answer Sheet.**
+   
+   **Note**: Zsh users, use ```fc -li``` intead of history to grab your commands for the answer sheet.
 
 9. **Mac users only.** In order to install the ```rename``` command, you must first install [homebrew](https://brew.sh/). Then run the following command:
 
