@@ -144,7 +144,7 @@ cat test.txt >test.txt
 
 ### Assignment
 
-For today's assignment, you should work in the shell within the 'Assignment' directory, which is located within the GitHub directory for this week's class (```Week02_Shell-pt1```). To get there, use the 'cd' command. For example, on my computer, I would use the following:
+For today's assignment, you should work in the shell within a copy of the 'Assignment' directory, which is located within the GitHub directory for this week's class (```Week02_Shell-pt1```). To get there, use the 'cd' command. For example, on my computer, I would use the following:
 
 ```cd ~/Documents/GitHub/PracticalComputing_Spring2021/Week02_Shell-pt1/Assignment```
 
