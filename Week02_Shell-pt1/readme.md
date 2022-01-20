@@ -93,6 +93,7 @@ bindkey '\e[B' history-beginning-search-forward
 5. In order to execute the newly added commands for use in your current session, run the following command from the terminal window:
 
    - **For Mac users:**
+
 ```source ~/.bash_profile```
 
 or
@@ -101,6 +102,7 @@ or
 
 
    - **For Linux/Windows users:**
+
 ```source ~/.bashrc```
 
 
