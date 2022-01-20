@@ -146,7 +146,7 @@ cat test.txt >test.txt
 
 For today's assignment, you should work in the shell within a copy of the 'Assignment' directory, which is located within the GitHub directory for this week's class (```Week02_Shell-pt1```). To get there, use the 'cd' command. For example, on my computer, I would use the following:
 
-```cd ~/Documents/GitHub/PracticalComputing_Spring2021/Week02_Shell-pt1/Assignment```
+```cd ~/Documents/GitHub/PracticalComputing_Spring2022/Week02_Shell-pt1/Assignment```
 
 Once there type ```ls -1``` and you should see the following list of files and directories (```-1``` results in contents being presented, one per line, but without the extra info you get with ```-l```):
 
@@ -209,7 +209,7 @@ Explore for "extra credit" or in the event that you finish all of the other exer
 [Additional configuration suggestions](https://natelandau.com/my-mac-osx-bash_profile/)
 
 
-Copyright (C) 2021  Jason Ladner
+Copyright (C) 2022  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
