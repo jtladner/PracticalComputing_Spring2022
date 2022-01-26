@@ -53,7 +53,9 @@ This should automatically open the jupyter notebook within your default browser.
     3. Compile the BWA program using ```make```. While the compilation is running, you will see a bunch of text printed to the screen, which probably won't make a lot of sense. As long as you don't see "fatal error" in red, every thing is probably OK. Note: if you have a newer silicon Mac, try the following commands:
     
     ```sed -i -e 's/<emmintrin.h>/"sse2neon.h"/' ksw.c```
+    
     ```wget https://gitlab.com/arm-hpc/packages/uploads/ca862a40906a0012de90ef7b3a98e49d/sse2neon.h```
+    
     ```make clean all```
     
     These commands tell the compiler to use NEON instead of SSE for SIMD operations (don't worry, I don't really know what that means either!)
