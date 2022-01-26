@@ -1,4 +1,4 @@
-# Class 3 - Jan. 29th 2021
+# Class 3 - Jan. 28th 2022
 - In this class we will:
     - Learn to download, install and run open source software
     - Learn to use for loops in bash to batch run multiple similar commands
@@ -109,7 +109,7 @@ This should automatically open the jupyter notebook within your default browser.
 
 [Command-line Murder Mystery](https://github.com/veltman/clmystery/)
 
-Copyright (C) 2021  Jason Ladner
+Copyright (C) 2022  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
