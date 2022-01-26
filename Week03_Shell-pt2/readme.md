@@ -9,11 +9,11 @@ Practical Computing for Biologists, Chapter 6, 21
 
 ### Preparation for next class
 
-Python scripts are generally simple text files that are executed on the command line, just like the bash shell scripts we will be generating in today's class. However, there are also GUIs available that allow for python scripts (and those written in other programming languages), to be written and executed without needing the command line. We will use this type of interactive interface for our initial introduction to Python programming next week and again, later in the class, when we learn how to use Python to generate figures. The interactive GUI we will use is called Jupyter Notebook (NOT Jupyter Lab!). 
+Python scripts are generally simple text files that are executed on the command line, just like the bash shell scripts we will be generating in today's class. However, there are also GUIs available that allow for python scripts (and those written in other programming languages), to be written and executed without needing the command line. We will use this type of interactive interface for our initial introduction to Python programming and also later in the class, when we learn how to use Python to generate figures. The interactive GUI we will use is called Jupyter Notebook (NOT Jupyter Lab!). 
 
 1. Install Jupyter Notebook
 
-There are multiple ways that you can [install the Jupyter Notebook](http://jupyter.org/install), but I highly recommend installing using the [Anaconda Distribution](https://www.anaconda.com/download/). Anaconda is available for Windows, Linux and MacOS and the Jupyter Notebook is automatically installed as a part of the Anaconda distribution. Please install the Python 3 version of Anaconda. Although your book uses Python 2, Python 3 is the is the current version and it is pretty easy to translate commands between the two versions. 
+There are multiple ways that you can [install the Jupyter Notebook](http://jupyter.org/install), but I highly recommend installing using the [Anaconda Distribution](https://www.anaconda.com/download/). Anaconda is available for Windows, Linux and MacOS and the Jupyter Notebook is automatically installed as a part of the Anaconda distribution. Please install the Python 3 version of Anaconda. Although your book uses Python 2, Python 3 is the current version and it is pretty easy to translate commands between the two versions. 
 
 After Anaconda has been installed, open a terminal window (Mac/Linux) or the "Anaconda Prompt" (Windows) and run the following command: ```jupyter notebook```
 
@@ -27,7 +27,7 @@ This should automatically open the jupyter notebook within your default browser.
 
 2. Downloading and using a precompiled binary
 
-    1. Download a precompiled binary for the [Muscle alignment tool](https://www.drive5.com/muscle/downloads.htm) that is  appropriate for your operating system. After downloading, move this binary into your ```programs``` directory. If needed, decompress with ```tar -xf```.
+    1. Download a precompiled binary for the [Muscle alignment tool](https://github.com/rcedgar/muscle/releases/tag/v5.1) that is  appropriate for your operating system. After downloading, move this binary into your ```programs``` directory.
     
     2. Use ```chmod``` to ensure that the newly downloaded binary is executable. Veryify the permissions are set properly using ```ls -l```. Enter the commands you used and the current permissions for the binary in the **Assignment Answer Sheet**.
     
@@ -37,26 +37,28 @@ This should automatically open the jupyter notebook within your default browser.
     
     5. Now, use the newly downloaded Muscle binary to align the Coronavirus Spike protein sequences contained in ```Week03_Shell-pt2/Assignment/``` using the following command:
     
-    ```muscle3.8.31_i86darwin64 -in CoV_Spike_MSA_unaligned.fasta  -out  CoV_Spike_MSA_aligned_muscle.fasta```
+    ```muscle5.1.macos_intel64 -align CoV_Spike_MSA_unaligned.fasta  -output  CoV_Spike_MSA_aligned_muscle.fasta```
     
-    **Note**: Replace ```muscle3.8.31_i86darwin64``` with the name of the binary you downloaded. 
+    **Note**: Replace ```muscle5.1.macos_intel64``` with the name of the binary you downloaded. 
     
     Enter the command you used in the **Assignment Answer Sheet** and **upload the aligned fasta file** to Bb Learn along with the Assignment Answer Sheet. 
 
 
 3. Download and compile source code
     
-    1. Download the source code for [RaxML from GitHub](https://github.com/stamatak/standard-RAxML) just as shown in today's demo. If desired, move source code to ```source``` directory then decompress with ```tar -xf```. 
+    1. Download the source code for [BWA from GitHub](https://sourceforge.net/projects/bio-bwa/files/) just as shown in today's demo. If desired, move source code to ```source``` directory then decompress with ```tar -xf```. Alternatively, you can download the latest source distribution directly from the command line with ```git clone https://github.com/lh3/bwa.git```.
     
     2. Within the shell, move into the decompressed source code directory. 
     
-    3. Compile the RaxML program using ```make```. It may take a few tries to find a source code version that is compatible with your processor and operating system. See [manual](https://github.com/stamatak/standard-RAxML/tree/master/manual ) for details. Here is an example of a command that worked on my laptop:
+    3. Compile the BWA program using ```make```. While the compilation is running, you will see a bunch of text printed to the screen, which probably won't make a lot of sense. As long as you don't see "fatal error" in red, every thing is probably OK. Note: if you have a newer silicon Mac, try the following commands:
     
-    ```make -f Makefile.AVX.gcc```
+    ```sed -i -e 's/<emmintrin.h>/"sse2neon.h"/' ksw.c```
+    ```wget https://gitlab.com/arm-hpc/packages/uploads/ca862a40906a0012de90ef7b3a98e49d/sse2neon.h```
+    ```make clean all```
     
-    In the **Assignment Answer Sheet**, record the version of the source code that compiled correctly on your system. 
+    These commands tell the compiler to use NEON instead of SSE for SIMD operations (don't worry, I don't really know what that means either!)
     
-    4. Use the ```-h``` option to view the help documentation associated with the RaxML program and copy the first 10 lines into the **Assignment Answer Sheet**.
+    4. To test the compiled binary, run the following command: ```./bwa```. This should print the help documentation to the screen. Copy the first 10 lines of the help info into the **Assignment Answer Sheet**.
     
     *Hint*: remember the ```head``` command covered last week.  
 
