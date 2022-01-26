@@ -46,7 +46,9 @@ This should automatically open the jupyter notebook within your default browser.
 
 3. Download and compile source code
     
-    1. Download the source code for [BWA from GitHub](https://sourceforge.net/projects/bio-bwa/files/) just as shown in today's demo. If desired, move source code to ```source``` directory then decompress with ```tar -xf```. Alternatively, you can download the latest source distribution directly from the command line with ```git clone https://github.com/lh3/bwa.git```.
+    1. Download the source code for [BWA from GitHub](https://sourceforge.net/projects/bio-bwa/files/) just as shown in today's demo. If desired, move source code to ```source``` directory then decompress with ```tar -xf```. Alternatively, you can download the latest source distribution directly from the command line with: 
+    
+    ```git clone https://github.com/lh3/bwa.git```
     
     2. Within the shell, move into the decompressed source code directory. 
     
@@ -65,7 +67,7 @@ This should automatically open the jupyter notebook within your default browser.
     *Hint*: remember the ```head``` command covered last week.  
 
 
-4. Move into ```Week03_Shell-pt2/Assignment/zika\_genomes```. This directory contains 89 fasta files. 88 of these each containing a single Zika virus genome, and each sequence containing line within these fasta files has a maximum length of 70 nucleotides. The other is a test file containing a dummy sequence wrapped 5 nucleotides per line.
+4. Move into ```Week03_Shell-pt2/Assignment/zika_genomes```. This directory contains 89 fasta files. 88 of these each containing a single Zika virus genome, and each sequence containing line within these fasta files has a maximum length of 70 nucleotides. The other is a test file containing a dummy sequence wrapped 5 nucleotides per line.
 
     This directory also contains a simple python script - "wrap_fasta.py" - that changes the length of the sequence lines in a fasta file. Here is an example command that will take an input fasta and generate a new version with sequence containing lines up to 20,000 nucleotides long:
 
