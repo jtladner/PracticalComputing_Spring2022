@@ -1,4 +1,4 @@
-# Class 4 - Feb. 5th 2021
+# Class 4 - Feb. 4th 2022
 - In this class we will learn:
     - about three different ways to run Python code
     - about six of the most common data types in Python
@@ -11,7 +11,7 @@ Practical Computing for Biologists, Chapters 7-8
 
 ### Assignment
 
-1. Use Jupyter Notebook to open "PythonPt1-Class4.ipynb". This notebook will introduce you to the Python syntax for serveral major variable types and some of their commonly used methods. Read through each cell of the notebook and execute the contained code using "control+enter", "shift+enter" or by pressing the play button at the top of the Notebook. Six of the cells are empty and there for you to complete the different parts of the assignment. Enter your code for each part of the assignment directly within the notebook cells. When you have finished all of the different parts of the assignment, **download your completed notebook as an .html file and upload to BbLearn.**
+1. Use Jupyter Notebook to open "PythonPt1-Class4.ipynb". This notebook will introduce you to the Python syntax for serveral major variable types and some of their commonly used methods. Read through each cell of the notebook and execute the contained code using "control+enter", "shift+enter" or by pressing the play button at the top of the Notebook. Six of the cells are empty and there for you to complete the different parts of the assignment. Enter your code for each part of the assignment directly within the notebook cells. When you have finished all of the different parts of the assignment, **download your completed notebook as a .pdf and/or an .html file and upload to BbLearn.**
 
 2. Open your terminal and enter the interactive Python shell. The command ```python``` should do the trick. If not, try  ```python3```.
 This interface is really useful as a test bed, to make sure that commands work as you expect before adding them to your script. Test out a few of the commands you learned in Part 1 of the assignment and then **submit a screenshot of your interactive session via BbLearn.**
@@ -21,7 +21,7 @@ This interface is really useful as a test bed, to make sure that commands work a
 
 [Python Challenge](http://www.pythonchallenge.com/)
 
-Copyright (C) 2021  Jason Ladner
+Copyright (C) 2022  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
