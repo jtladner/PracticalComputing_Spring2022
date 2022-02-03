@@ -163,7 +163,7 @@ structure_hidden.pdb
 
     3. Design a simple ```grep``` command that will generate the same output generated in the previous step (i.e., display lines 4532-4539 only). (hint: compare the content on lines 4532-4539 to the rest of the file). **Enter your command in the Assignment Answer Sheet.**
     
-    4. Use the ```man``` command to learn about other options that can be used with ```grep```. Two particularly useful options specify a number of "context lines" to report. These context lines are lines that occur before or after any line that matches the query. Design a command that uses a combination of these options to generate the same output that was generated in the two previous steps (i.e., display lines 4532-4539 only). **Enter your command in the Assignment Answer Sheet.**
+    4. Use the ```man``` command to learn about other options that can be used with ```grep```. Two particularly useful options specify a number of "context lines" to report (-A and -B). These context lines are lines that occur before or after any line that matches the query. Design a command that uses a combination of these options to generate the same output that was generated in the two previous steps (i.e., display lines 4532-4539 only). **Enter your command in the Assignment Answer Sheet.**
 
     5. ```.pdb``` is a file format used to describe the 3D structures of molecules held in the [Protein Data Bank](https://www.rcsb.org/). Each line that starts with ```ATOM``` describes the spatial coordinates of an atom that is part of the protein. How many atoms are part of the protein structure described in ```structure_hidden.pdb```? **Enter the command you used and the number of atoms in the Assignment Answer Sheet.**
 
@@ -197,7 +197,7 @@ structure_hidden.pdb
     
     6. How many sequence names end with '0'? **Enter the number of sequences and command used in the Assignment Answer Sheet.**
     
-    7. Using ```head```, ```grep``` and some trial and error, generate a new fasta file containing the first 500 sequences. (**Make sure you include the entire 500th sequence**). How many **lines** are contained in this new files? **Enter the number of lines and command used in the Assignment Answer Sheet.**
+    7. Using ```head```, ```grep``` and some trial and error (i.e. multiple commands while changing parameters) determine how many lines you need to cover the first 500 sequences. Then generate a new fasta file containing the just the first 500 sequences. (**Make sure you include the entire 500th sequence**). How many **lines** are contained in this new files? **Enter the number of lines and command used in the Assignment Answer Sheet.**
 
 
 ## Extra fun
