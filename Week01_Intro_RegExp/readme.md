@@ -32,8 +32,8 @@ If the reponse is not "/bin/bash" or "/bin/zsh", let me know.
      seq2
      ```
     
-    3. Edit your regular expression(s) to also change the sequence names. New names should only include the characters prior to the first underscore ('_'). **Record find/replace queries in Assignment answer sheet.**
-    4. Edit your regular expression(s) to remove all 'N' characters from the beginning and end of each sequence. **Record find/replace queries in the Assignment answer sheet.**
+    3. Revert back to the original "EBOV.phy" file and now edit your regular expression(s) to also change the sequence names. New names should only include the characters prior to the first underscore ('_'). **Record find/replace queries in Assignment answer sheet.**
+    4. Revert back to the original "EBOV.phy" file and now edit your regular expression(s) to remove all 'N' characters from the beginning and end of each sequence. **Record find/replace queries in the Assignment answer sheet.**
     5. **Upload final fasta-formatted file to Bb Learn along with Assignment Answer Sheet.**
 
 3. Open "HastingsBirdList\_2007.txt" in your text editor. This file contains tab-delimited information about bird species cited in the Hastings Park Conservancy in Vancouver, BC.
