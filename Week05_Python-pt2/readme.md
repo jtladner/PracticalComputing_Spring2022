@@ -1,4 +1,4 @@
-# Class 5 - Feb. 12th 2021
+# Class 5 - Feb. 11th 2022
 - In this class we will:
     - Learn how how to access values in a list by position
     - Learn how to convert between lists and strings
@@ -15,7 +15,7 @@ Practical Computing for Biologists, Chapter 9
 
 [More fun with loops](https://towardsdatascience.com/five-cool-python-looping-tips-14f6f44bcfc7)
 
-Copyright (C) 2021  Jason Ladner
+Copyright (C) 2022  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
