@@ -1,12 +1,13 @@
-# Class 8 - March 5th 2021
+# Class 8 - March 4th 2022
 - In this first class we will:
+    - Learn to use the pandas module to read in data files
     - Practice debugging Python scripts
 
 ### Required Reading (**Must be completed ahead of time**)
 Practical Computing for Biologists, Chapters 13,14
 
 
-### Exercises
+### Assignment
 
 For today's assignment, I've provided a set of Python scripts, all containing bugs that either prevent execution or result in unintended results. The buggy scripts have been organized into levels depending on the nature of the bugs. 
 
@@ -50,7 +51,13 @@ There are two versions of this script. Attempt to run the example command with b
 
 ## Extra fun
 
-[pdb module](https://docs.python.org/2/library/pdb.html)
+[pandas overview](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
+
+[pandas data structures](https://pandas.pydata.org/pandas-docs/stable/user_guide/dsintro.html#dsintro)
+
+[pandas basics](https://pandas.pydata.org/pandas-docs/stable/user_guide/basics.html#basics)
+
+[pdb module](https://docs.python.org/3/library/pdb.html)
 
 [other tools](https://wiki.python.org/moin/PythonDebuggingTools)
 
