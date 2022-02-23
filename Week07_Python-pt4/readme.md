@@ -1,4 +1,4 @@
-# Class 7 - Feb. 26th 2021
+# Class 7 - Feb. 25th 2022
 - In this class we will:
     - Learn how how to create and use stand-alone python scripts
     - Learn to use the argparse module to get user input
@@ -15,8 +15,9 @@ Practical Computing for Biologists, Chapter 12
 3. In this week's assignment directory, you will find two text files: 'list1.txt' and 'list2.txt'. Each of these files contains a list of IDs (e.g., PV1_064984), one per line. Write a stand-alone python script that will read in both of these lists and then create a new text file containing some combination or subset of IDs contained in these two files. This script should include the following:
     
     - Use of argparse module to handle input from the user. At least 4 arguments should be defined: one for each of the input files, one for the name of the output file and one for the **type** of output file to generate. The last argument should have the following options: union, difference, symmetric_difference, intersection.
-    - Include a custom function that will take a single input file name as an argument and will return a set of all of the IDs contained within that file.
-    - Use set comparisons to generate the collection of IDs to include in the output file. 
+    - Include a custom function that will take a single input file name as an argument and will return a **set** of all of the IDs contained within that file.
+    - Use **set comparisons** to generate the collection of IDs to include in the output file.
+    
 4. Use your custom script to generate 2 new text files; one containing the intersection of the two initial lists and one containing the symmetric difference. **Upload your completed script and these two output files to BbLearn.**
 
 ## Extra fun
