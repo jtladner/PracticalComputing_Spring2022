@@ -9,9 +9,16 @@ Practical Computing for Biologists, Chapters 13,14
 
 ### Assignment
 
-For today's assignment, I've provided a set of Python scripts, all containing bugs that either prevent execution or result in unintended results. The buggy scripts have been organized into levels depending on the nature of the bugs. 
+#### Part 1 - Pandas
 
-#### Level 1: each script containins a single bug that will prevent the script from running
+Use Jupyter Notebook to open "PythonPt5-Class8.ipynb". This notebook contains examples of the python syntax asociated using the pandas module, as well as part of today's assignment. Enter your code for each part of the assignment directly within the notebook cells. When you have finished all of the different parts of the assignment, **download your completed notebook as an .html file, zip the file and upload to BbLearn.**
+
+
+#### Part 2 - Debugging
+
+For Part 2 of today's assignment, I've provided a set of Python scripts, all containing bugs that either prevent execution or result in unintended results. The buggy scripts have been organized into levels depending on the nature of the bugs. 
+
+##### Level 1: each script containins a single bug that will prevent the script from running
 
 1. Assignment 1.1: rev\_comp.py is a script that accepts one or more DNA sequences as arguments on the command line. The reverse complement versions of these sequences will be printed to the screen. Here is an example command:
     
@@ -38,7 +45,7 @@ For today's assignment, I've provided a set of Python scripts, all containing bu
     There are four versions of this script. Each contains a single bug. Attempt to run the example command with each version and track down the bug based on the error messages. **Describe each bug and your fix in the Assignment Answer Sheet.**
 
 
-#### Level 2: each script contains a single bug. The bug will not prevent the script from running, but will prevent generation of the expected output. 
+##### Level 2: each script contains a single bug. The bug will not prevent the script from running, but will prevent generation of the expected output. 
 
 1. Assignment 2.1: Again, you'll be focusing on wrap\_fasta.py. There are two versions of this script. Each contains a single bug. There is also a file called ExpectedOutput.fasta, which contains the expected output of the bug free script. Attempt to run the example command with both versions, check the output and track down the bugs. **Describe each bug and your fix in the Assignment Answer Sheet.**
 
