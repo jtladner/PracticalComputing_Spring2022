@@ -1,4 +1,4 @@
-# Class 9 - March 12th 2021
+# Class 9 - March 11th 2022
 - In this class we will:
     - Discuss concepts related to graphics
     - Learn tips and tools for making better figures
@@ -9,16 +9,16 @@ Practical Computing for Biologists, Chapters 17-19
 
 ### Vector Assignments
 
-1. Work through tutorials specific for you program. 
+1. Work through tutorials specific for your program. 
 
-    a. If you are using Inkscape, read through both the [Basic](https://inkscape.org/en/doc/tutorials/basic/tutorial-basic.html) and [Advanced](https://inkscape.org/en/doc/tutorials/advanced/tutorial-advanced.html) tutorials. These links are to the static html versions on the Inkscape website, but these can also be accessed with the Inkscape program with Help > Tutorials. This will bring you to an interactive verion. Make sure to try all of the explained commands within the Inkscape program. 
+    a. If you are using Inkscape, read through both the [Basic](https://inkscape.org/en/doc/tutorials/basic/tutorial-basic.html) and [Advanced](https://inkscape.org/en/doc/tutorials/advanced/tutorial-advanced.html) tutorials. These links are to the static html versions on the Inkscape website, but these can also be accessed within the Inkscape program with Help > Tutorials. This will bring you to an interactive version. Make sure to try all of the explained commands within the Inkscape program. 
 
     b. If you are using Illustrator, work through this [vector basics tutorial](https://www.youtube.com/watch?v=GFY0_EMVYDw&feature=youtu.be).
 
 
 1. HapNetwork.pdf (or HapNetwork.svg) contains a vector-based haplotype network depicting the relationships among several Ebola virus genomes from the West African outbreak. First, remove the background grey shapes. Second, use the "Select -> Same" tool to quickly adjust the color scheme to something recommended on [ColorBrewer2](http://colorbrewer2.org). Finally, change the location names to the names of your chosen colors. The PDF version should work well for Illustrator, SVG will be better for Inkscape. **Upload your edited version of the haplotype network to Bb Learn.**
 
-2. Open scatter.pdf (or scatter.svg) in your vector editor of choice. This file contains a scatterplot generated using the Python module Matplotlib. Before getting starting with the following tasks, use the "Direct selection" or "Edit paths by nodes" tool to select and explore various objects in the graph. There are probably a lot more objects than you would have predicted. This is often the case with figures exported from programs such as R, Matlab or Python. 
+2. Open scatter.pdf (or scatter.svg) in your vector editor of choice. This file contains a scatterplot generated using the Python module Matplotlib. Before getting started with the following tasks, use the "Direct selection" or "Edit paths by nodes" tool to select and explore various objects in the graph. There are probably a lot more objects than you would have predicted. This is often the case with figures exported from programs such as R, Matlab or Python. 
 
     1. This figure will be used in a manuscript, with a width of only 1/3 of a page. Try to increase the size of of the axis labels for clarity in the printed version. Notice somethng unexpected? Even within a vector-based graphic, numbers and letters are not always output as editable text. In this case, you have two options: 1) keep the numbers simply as shapes and enlarge using a combination of the two arrow tools or 2) delete the existing labels and use the Type tool to replace them with editable text versions. These can then be resized just as you would resize text in Word. 
 
@@ -44,7 +44,7 @@ Practical Computing for Biologists, Chapters 17-19
 
 2. On your version of Gel.jpg with the new levels, use the Type/Text tool to add annotations to the image. The bands on the left are from a molecular weight size marker (i.e. a ladder) and the bands on the right are viral genome segments. Feel free to choose whatever labels you want. **Upload your edited version of Gel.jpg to Bb Learn.**
 
-3. **Extra Credit** Another possibility for generating an image of the tarantula for a presentation (as opposed to creating a vector-based version) would be to create a simplified pixel-based version by removing all of the background. In Illustrator, play around with the various lasso tools to select and delete the background material. Or try the [Select and Mask](https://www.google.com/search?q=how+to+remove+the+background+from+an+image+in+photoshop&rlz=1C5CHFA_enUS778US779&oq=How+to+remove+the+background+from+an+image+&aqs=chrome.1.69i57j0l5.8476j0j7&sourceid=chrome&ie=UTF-8#kpvalbx=1) approach.  Here are some [good tools for GIMP](https://docs.gimp.org/en/gimp-tutorial-quickie-separate.html). Here is another [cool approach](https://www.youtube.com/watch?v=XXReaZw013k). **Upload your background-removed version of the tarantula to Bb Learn.**
+3. **Extra Credit** Another possibility for generating an image of the tarantula for a presentation (as opposed to creating a vector-based version) would be to create a simplified pixel-based version by removing all of the background. In Illustrator, play around with the various lasso tools to select and delete the background material. Or try [these approaches](https://www.remove.bg/b/how-to-remove-background-image-in-photoshop).  Here are some [good tools for GIMP](https://docs.gimp.org/en/gimp-tutorial-quickie-separate.html). Here is another [cool approach](https://www.youtube.com/watch?v=XXReaZw013k). **Upload your background-removed version of the tarantula to Bb Learn.**
 
 ## Extra fun
 
