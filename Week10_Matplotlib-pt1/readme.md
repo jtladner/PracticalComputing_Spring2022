@@ -1,4 +1,4 @@
-# Class 10 - March 19th 2021
+# Class 10 - March 25th 2022
 - In this class we will:
     - Learn to use the matplotlib module to create figures using python
 
@@ -15,7 +15,7 @@ Open the Jupyter notebook called "Class10_Matplotlib.ipynb" and work through the
 
 [gif map](https://towardsdatascience.com/how-to-make-a-gif-map-using-python-geopandas-and-matplotlib-cd8827cefbc8)
 
-Copyright (C) 2021  Jason Ladner
+Copyright (C) 2022  Jason Ladner
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
